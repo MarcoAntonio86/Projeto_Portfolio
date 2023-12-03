@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	font-family: "Poppins", sans-serif;
+	font-size: 50px;
+}
+
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 120px;
+}
+
+body {
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+header {
+	display: flex;
+	justify-content: space-around;
+	max-width: 100%;
+	align-items: center;
+	text-align: center;
+	padding-top: 1rem;
+}
+
+.cabeçalho-link {
+	display: flex;
+	gap: 3rem;
+	font-weight: 300;
+	cursor: pointer;
+	position: fixed;
+	background-color: black;
+	width: 100%;
+	justify-content: center;
+}
+
+#logo {
+	display: flex;
+	font-weight: 300;
+	cursor: pointer;
+	color: rgb(177, 177, 179);
+	font: 20px;
+	border: 1px solid;
+	border-radius: 100%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 60px;
+	height: 100px;
+	width: 110px;
+	background: transparent;
+}
+
+#logo :hover {
+	color: #2ecc71;
+	transition: 0.3s;
+}
+
+.cabeçalho-link a {
+	color: rgb(177, 177, 179);
+	font: 12px;
+	font-size: 30px;
+}
+
+.cabeçalho-link a:hover {
+	color: #2ecc71;
+	transition: 0.3s;
+}
+.cabeçalho-link button {
+	color: black;
+	background: aqua;
+	padding: 5px;
+	border-radius: 45px;
+	font-size: 20px;
+	width: 150px;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.cabeçalho-link button:hover {
+	color: white;
+	background: blue;
+	transition: 0.5s;
+}
+
+.container-text {
+	margin-top: 100px;
+	display: flex;
+    font-size: 20px;
+	justify-content: center;
+    align-items: center;
+	text-align: justify;
+}
+
+.text {
+	color: rgb(217, 217, 247);
+	font-size: 30px;
+    display: flex ;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text p{
+    width: 80%;
+}
+
+.text2{
+	color: rgb(217, 217, 247);
+	font-size: 30px;
+    display: flex ;
+    justify-content: right;
+    flex-direction: column;
+    align-items: right;
+}
+
+ #p2{
+	color: rgba(149, 230, 245, 0.932);
+ }
+#ola {
+	color: rgba(149, 230, 245, 0.932);
+	font-size: 50px;
+    display: flex ;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+	
+}
+
+#ola2 {
+	color: rgba(149, 230, 245, 0.932);
+}
+    
+
+
+.redes-sociais a {
+	padding: 10px;
+	font-size: 30px;
+}
+
+button {
+	color: blue;
+	background: aqua;
+	padding: 5px;
+	border-radius: 45px;
+	font-size: 20px;
+	width: 150px;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.sobre {
+	margin-top: 10px;
+}
+.home {
+	margin-top: 10px;
+}
+.serviços {
+	margin-top: 10px;
+}
+.trabalhos {
+	margin-top: 10px;
+}
+
+.container-reparo{
+	margin-top: 100px;
+	display: flex;
+    font-size: 20px;
+	color: rgb(217, 217, 247);
+	justify-content: center;
+    align-items: center;
+	 flex-direction: column;
+}
+
+
+a {
+	color: white;
+	font-size: 30px;
+}
+
+@media (max-width: 1429px) {
+	header {
+		display: none;
+	}
+}
+
+#subir {
+	color: black;
+	background: aqua;
+	padding: 5px;
+	border-radius: 45px;
+	font-size: 20px;
+	width: 150px;
+	text-decoration: underline;
+	cursor: pointer;
+}
+#subir:hover {
+	color: white;
+	background: blue;
+	transition: 0.5s;
+}
+
+#projetos {
+	display: flex;
+	flex-direction: column;
+    width: 100%;
+	
+}
+
+#projetos a{
+	font-size: 50px;
+}
